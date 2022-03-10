@@ -56,14 +56,14 @@ a {
 /* / Header */
 
 /*main*/
-.container1 {
+.container-1 {
     background-color: #b4d0e7;
 }
 
-.col {
+.content-1 {
     width: 80%;
     margin: 0 auto;
-    height: 100vh;/*debud*/
+    height: 100vh;/*debug*/
 }
 
 .title {
@@ -71,4 +71,14 @@ a {
     font-size: 40px;
     padding-top: 80px;
 
+}
+
+.text-1 {
+    width: 30%;
+    margin-top: 30px;
+}
+
+.btn-blu {
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
