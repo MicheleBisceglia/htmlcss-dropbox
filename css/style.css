@@ -11,6 +11,7 @@
     clear: both;
 }
 
+/*header*/
 header {
     height: 60px;
     padding-top: 20px;
@@ -47,4 +48,14 @@ a {
 .h-btn {
     float: right;
     margin-right: 50px;
+}
+/* / Header */
+
+/*main*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: brown; /*debug*/
+    height: 100vh;/*debud*/
 }
