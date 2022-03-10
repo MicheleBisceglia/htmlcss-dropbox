@@ -58,12 +58,24 @@ a {
     font-size: 15px;
 }
 
-.h-btn {
+.menu-btn {
     float: right;
     margin-right: 50px;
+    width: 70px;
+    height: 30px;
+    background-color: #0061ff;
+    color: white;
+    border-style: none;
 }
 /* / Header */
 
+.btn-blu {
+    
+    font-size: 15px;
+    background-color: #0061ff;
+    color: white;
+    border-style: none;
+}
 /*main*/
 .container-1 {
     background-color: #b4d0e7;
@@ -88,19 +100,11 @@ a {
     font-size: 100%;
 }
 
-.btn-blu {
+.main-btn {
     margin-top: 25px;
     margin-bottom: 15px;
     width: 200px;
     height: 40px;
-    font-size: 15px;
-}
-
-img {
-    /*background-image: url("../img/jumbo.png");*/
-    font-size: 50%;
-    background-size: cover;
-    float: right;
 }
 
 .arrow {
