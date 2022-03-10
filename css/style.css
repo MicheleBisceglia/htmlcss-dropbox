@@ -5,10 +5,41 @@
     box-sizing: border-box;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 header {
     height: 60px;
+    padding-top: 20px;
 }
 
 .logo {
-    margin-top: 20px;
+    float: left;
+    padding-right: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.l-right {
+    float: right;
+}
+
+.l-left {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
 }
