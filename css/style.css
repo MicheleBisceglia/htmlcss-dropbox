@@ -17,7 +17,7 @@ html {
 
 /*header*/
 header {
-    height: 80px;
+    height: 70px;
     width: 100%;
     padding-top: 20px;
     background-color: white;
@@ -40,6 +40,10 @@ ul {
     padding-right: 20px;
 }
 
+.menu-item:hover a {
+    border-bottom: solid 3px black;
+    padding-bottom: 25px;
+}
 .l-right {
     float: right;
 }
@@ -51,7 +55,7 @@ ul {
 a {
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .h-btn {
@@ -73,22 +77,39 @@ a {
 
 .title {
     text-align: left;
-    font-size: 60px;
-    padding-top: 150px;
+    font-size: 40px;
+    padding-top: 130px;
 
 }
 
 .text-1 {
-    width: 45%;
-    margin-top: 30px;
-    font-size: 150%;
+    width: 40%;
+    margin-top: 25px;
+    font-size: 100%;
 }
 
 .btn-blu {
-    margin-top: 40px;
+    margin-top: 25px;
     margin-bottom: 15px;
-    width: 400px;
-    height: 50px;
-    font-size: 25px;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
 }
 
+img {
+    /*background-image: url("../img/jumbo.png");*/
+    font-size: 50%;
+    background-size: cover;
+    float: right;
+}
+
+.arrow {
+    font-size: 100px;
+}
+
+ /*.abs-center {
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
