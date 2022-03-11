@@ -29,6 +29,7 @@ header {
 .logo {
     float: left;
     padding-right: 50px;
+    padding-left: 20px;
 }
 
 ul {
@@ -77,26 +78,27 @@ a {
     border-style: none;
 }
 /*main*/
+ /*container-1*/
 .container-1 {
     background-color: #b4d0e7;
 }
 
-.content-1 {
+.content {
     width: 80%;
     margin: 0 auto;
     max-width: 1200px;
-    height: 100vh;/*debug*/
+    height: 95vh;
 }
 
-.title {
+.title1 {
     text-align: left;
-    font-size: 40px;
-    padding-top: 130px;
-
-}
+    font-size: 30px;
+    padding-top: 100px;
+    
+    }
 
 .col-sx {
-    width: 30%;
+    width: 25%;
     margin-top: 25px;
     margin-bottom: 30px;
     margin-right: 50px;
@@ -106,10 +108,10 @@ a {
 }
 
 .col-dx {
-    height: 60%;
-    width: 60%;
+    height: 65%;
+    width: 70%;
     float: left;
-    margin-top: 25px;
+    margin-top: 30px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
 }
@@ -127,5 +129,19 @@ a {
 .arrow-container {
     padding-top: 40px;
 }
+/* /container-1*/
+
+/*container-2*/
+.title2 {
+    text-align: left;
+    font-size: 20px;
+    padding-top: 10%;
+    }
 
 
+ .col { height: 100%;
+    width: 30%;
+    float: left;
+    background-color: aqua;/*debug*/
+    border: solid 1em red;/*debug*/
+ }
