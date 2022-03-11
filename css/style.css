@@ -136,12 +136,33 @@ a {
     text-align: left;
     font-size: 20px;
     padding-top: 10%;
+    padding-left: 7%;
     }
 
-
  .col { height: 100%;
-    width: 30%;
+    width: 25%;
     float: left;
-    background-color: aqua;/*debug*/
-    border: solid 1em red;/*debug*/
+    margin-left: 7%;
+    margin-top: 5%;
+    border: solid .1em black;
+ }
+
+ .col-title {
+     text-align: center;
+     border-bottom: solid .1em black;
+     padding-top: 2%;
+     padding-bottom: 2%;
+ }
+
+ .col-intro {
+     padding-top: 10%;
+     padding-left: 10%;
+ }
+
+ strong {
+    font-size: 150%;
+ }
+
+ .intro-item {
+     padding-top: 5%;
  }
