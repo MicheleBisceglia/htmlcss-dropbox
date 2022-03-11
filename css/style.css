@@ -96,20 +96,22 @@ a {
 }
 
 .col-sx {
-    width: 40%;
+    width: 30%;
     margin-top: 25px;
     margin-bottom: 30px;
+    margin-right: 50px;
     font-size: 100%;
     float: left;
-    background-color: aquamarine;/*debug*/
+    font-size: 80%;
 }
 
 .col-dx {
-    height: 50%;
-    width: 50%;
+    height: 60%;
+    width: 60%;
     float: left;
-    background-color: yellow;/*debug*/
     margin-top: 25px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .main-btn {
