@@ -71,8 +71,9 @@ a {
 /* / Header */
 
 .btn-blu {
-    
-    font-size: 15px;
+    margin-right: 50px;
+    width: 170px;
+    height: 30px;
     background-color: #0061ff;
     color: white;
     border-style: none;
@@ -146,23 +147,37 @@ a {
     margin-top: 5%;
     border: solid .1em black;
  }
-
+ 
  .col-title {
      text-align: center;
      border-bottom: solid .1em black;
      padding-top: 2%;
-     padding-bottom: 2%;
  }
 
+ .intro-title {
+     font-size: 150%;
+ }
  .col-intro {
      padding-top: 10%;
-     padding-left: 10%;
  }
 
- strong {
-    font-size: 150%;
+ .col-margin {
+     margin-bottom: 5%;
+     margin-left: 10%;
  }
+.col-list {
+    font-size: 80%;
 
- .intro-item {
+}
+ .price {
      padding-top: 5%;
+     font-size: 80%;
  }
+ 
+ #col1-hr {
+     width: 25%;
+     margin-left: 10%;
+     margin-top: 5%;
+     margin-bottom: 5%;
+ }
+ /* /container2
