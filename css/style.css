@@ -199,8 +199,9 @@ header a {
     border: solid .1em gray;
     position: relative;
     top: 10vh;
-    width: 97%;
+    width: 70%;
     padding-bottom: 5vh;
+    margin: 0 auto;
 }
 
 .c3-btn {
@@ -214,3 +215,32 @@ header a {
     max-width: 80%;
 }
 /* /conteiner 3*/
+
+/* conteiner 4*/
+.container-4 {
+    height: 100vh;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: 30vh;
+}
+
+.c4-col-img {
+    height: 100%;
+    width: 100%;
+    float: left;
+    background-image: url(../img/partner.png);
+    background-size: cover;
+}
+
+.img-container {
+    height: 60%;
+    width: 50%;
+}
+
+.c4-col-text {
+    float: right;
+    background-color: red;
+    width: 50%;
+    height: 60%;
+}
