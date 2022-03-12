@@ -245,9 +245,9 @@ header a {
 .c4-col-text {
     float: right;
     width: 50%;
-    position: relative;
+    position: absolute;
     top: 5%;
-    left: 5%;
+    left: 55%;
     }
 
 .c4-item {
@@ -266,7 +266,24 @@ header a {
 
 /*section 4*/
     /* conteiner 5 */
+.container-5 {
+    max-width: 70%;
+    height: 25vh;
+    background-color: yellow;
+    margin: 0 auto;
+}
 
-
-
+.c5-col {
+    background-color: red;
+    width: calc(100%/3);
+    float: left;
+    height: 25vh;
+}
 /* /conteiner 5*/
+
+.container-6 {
+    background-color: blue;
+    max-width: 70%;
+    height: 25vh;
+    margin: 0 auto;
+}
