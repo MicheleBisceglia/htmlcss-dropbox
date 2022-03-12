@@ -11,6 +11,15 @@
     clear: both;
 }
 
+.btn-blu {
+    margin-right: 50px;
+    width: 70px;
+    height: 30px;
+    background-color: #0061ff;
+    color: white;
+    border-style: none;
+}
+
 html {
     font-family: "Open Sans", sans-serif;
 }
@@ -25,7 +34,6 @@ nav {
     position: fixed;
     z-index: 9999;
 }
-
 
 .logo {
     float: left;
@@ -70,15 +78,6 @@ header a {
     border-style: none;
 }
 /* / Header */
-
-.btn-blu {
-    margin-right: 50px;
-    width: 70px;
-    height: 30px;
-    background-color: #0061ff;
-    color: white;
-    border-style: none;
-}
 
 /*main*/
  /*container-1*/
@@ -131,24 +130,26 @@ header a {
 .arrow-container {
     padding-top: 40px;
 }
+/* /conteiner 1*/
 
+/*container 2*/
 .container-2 {
     max-width: 70%;
     margin: 0 auto;
     padding-top: 20vh;
 }
 .col {
-    width: 25%;
-    
-    margin-right: 5%;
+    width: 30%;
+    margin-right: 3%;
     margin-top: 10%;
-    border: solid .1em black;
+    padding-bottom: 20vh;
+    border: solid .1em grey;
     float: left;
 }
 
 .col-name {
     text-align: center;
-    border-bottom: .1em solid black;
+    border-bottom: .1em solid grey;
     padding-top: 1vh;
     padding-bottom: 1vh;
     }
@@ -164,6 +165,7 @@ header a {
 
 .col-title {
     font-size: 150%;
+    max-width: 80%;
 }
 
 .price {position: relative;
@@ -190,3 +192,25 @@ header a {
     left: 10%;
     top: 3vh;
 }
+/* /conteiner 2*/
+
+/* conteiner 3*/
+.container-3 {
+    border: solid .1em gray;
+    position: relative;
+    top: 10vh;
+    width: 97%;
+    padding-bottom: 5vh;
+}
+
+.c3-btn {
+    float: right;
+    width: 30%;
+    margin-top: 2%;
+}
+
+ .c3-title {
+    font-size: 150%;
+    max-width: 80%;
+}
+/* /conteiner 3*/
