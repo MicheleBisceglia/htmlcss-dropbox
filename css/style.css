@@ -16,10 +16,11 @@ html {
 }
 
 /*header*/
-header {
+nav {
     height: 70px;
     width: 100%;
     padding-top: 20px;
+    padding-bottom: 2px;
     background-color: white;
     position: fixed;
     z-index: 9999;
@@ -38,7 +39,7 @@ ul {
 
 .menu li {
     display: inline-block;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 .menu-item:hover a {
@@ -72,142 +73,44 @@ a {
 
 .btn-blu {
     margin-right: 50px;
-    width: 170px;
+    width: 70px;
     height: 30px;
     background-color: #0061ff;
     color: white;
     border-style: none;
 }
+
 /*main*/
  /*container-1*/
-.container-1 {
+ .container-1 {
     background-color: #b4d0e7;
+    height: 100vh;
 }
 
 .content {
     width: 80%;
+    height: 80vh;
     margin: 0 auto;
     max-width: 1200px;
-    height: 95vh;
+    padding-top: 150px;
+    background-color: aqua;
 }
 
-.title1 {
-    text-align: left;
-    font-size: 30px;
-    padding-top: 100px;
-    
-    }
+.title {
+    font-size: 300%;
+    max-width: 80%;
+}
 
 .col-sx {
     width: 25%;
-    margin-top: 25px;
-    margin-bottom: 30px;
-    margin-right: 50px;
-    font-size: 100%;
+    height: 70vh;
     float: left;
-    font-size: 80%;
+    background-color: yellow;
 }
 
 .col-dx {
-    height: 65%;
-    width: 70%;
-    float: left;
-    margin-top: 30px;
-    background-image: url(../img/jumbo.png);
-    background-size: cover;
+    width: 60%;
+    height: 70vh;
+    float: right;
+    background-color: red;
 }
-
-.main-btn {
-    margin-top: 25px;
-    margin-bottom: 15px;
-    width: 200px;
-    height: 40px;
-}
-
-.arrow {
-    font-size: 40px;
-}
-.arrow-container {
-    padding-top: 40px;
-}
-/* /container-1*/
-
-/*container-2*/
-.title2 {
-    text-align: left;
-    font-size: 20px;
-    padding-top: 10%;
-    padding-left: 7%;
-    }
-
- .col {
-    height: 100%;
-    width: 25%;
-    float: left;
-    margin-left: 7%;
-    margin-top: 5%;
-    border: solid .1em black;
- }
- 
- .col-title {
-     text-align: center;
-     border-bottom: solid .1em black;
-     padding-top: 5px;
-     padding-bottom: 5px;
- }
-
- .intro-title {
-     font-size: 150%;
- }
- .col-intro {
-     padding-top: 10%;
- }
-
- .col-margin {
-     margin-bottom: 5%;
-     margin-left: 10%;
- }
-.col-list {
-    font-size: 80%;
-
-}
- .price {
-     padding-top: 5%;
-     font-size: 80%;
- }
- 
- #col1-hr {
-     width: 25%;
-     margin-left: 10%;
-     margin-top: 5%;
-     margin-bottom: 5%;
- }
-
- .container-3 {
-    height: 30%;
-    width: 90%;
-    float: left;
-    margin-left: 7%;
-    margin-top: 5%;
-    border: solid .1em black;
- }
-
- .c3-btn {
-     float: right;
-     margin-top: 1%;
-}
-
-.c3-text1 {
-    padding-top: 2%;
-    padding-left: 2%;
-    font-size: 150%;
-    padding-bottom: 1%;
-}
-
-.c3-text2 {
-    padding-top: 1%;
-    padding-left: 2%;
-}
- /* /container2*/
-
- 
