@@ -80,7 +80,9 @@ header a {
 /* / Header */
 
 /*main*/
- /*container-1*/
+
+/*section 1*/
+    /*container-1*/
  .container-1 {
     background-color: #b4d0e7;
 }
@@ -130,9 +132,11 @@ header a {
 .arrow-container {
     padding-top: 40px;
 }
-/* /conteiner 1*/
+    /* /conteiner 1*/
+/* /section 1*/
 
-/*container 2*/
+/*section 2*/
+    /*container 2*/
 .container-2 {
     max-width: 70%;
     margin: 0 auto;
@@ -240,7 +244,29 @@ header a {
 
 .c4-col-text {
     float: right;
-    background-color: red;
     width: 50%;
-    height: 60%;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    }
+
+.c4-item {
+    margin-top: 5%;
 }
+
+.c4-btn {
+    width: 30%;
+    height: 5vh;
+    background-color: white;
+    color: black;
+    border-style: solid 1px;
+}
+    /* /conteiner 4*/
+/* /section 3*/
+
+/*section 4*/
+    /* conteiner 5 */
+
+
+
+/* /conteiner 5*/
