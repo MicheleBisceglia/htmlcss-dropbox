@@ -84,16 +84,14 @@ a {
  /*container-1*/
  .container-1 {
     background-color: #b4d0e7;
-    height: 100vh;
 }
 
 .content {
     width: 80%;
-    height: 80vh;
+    height: 95vh;
     margin: 0 auto;
     max-width: 1200px;
     padding-top: 150px;
-    background-color: aqua;
 }
 
 .title {
@@ -103,14 +101,34 @@ a {
 
 .col-sx {
     width: 25%;
-    height: 70vh;
     float: left;
-    background-color: yellow;
+    padding-top: 30px;
+    font-size: 100%;
+    float: left;
+    font-size: 80%;
 }
 
 .col-dx {
-    width: 60%;
-    height: 70vh;
-    float: right;
-    background-color: red;
+    height: 75%;
+    width: 65%;
+    margin-left: 100px;
+    float: left;
+    margin-top: 30px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+
+.main-btn {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    width: 200px;
+    height: 40px;
+}
+
+.arrow {
+    font-size: 40px;
+}
+.arrow-container {
+    padding-top: 40px;
 }
