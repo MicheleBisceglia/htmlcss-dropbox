@@ -54,7 +54,7 @@ ul {
     float: left;
 }
 
-a {
+header a {
     text-decoration: none;
     color: black;
     font-size: 15px;
@@ -109,15 +109,14 @@ a {
 }
 
 .col-dx {
-    height: 75%;
-    width: 65%;
+    height: 80%;
+    width: 60%;
     margin-left: 100px;
     float: left;
     margin-top: 30px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
 }
-
 
 .main-btn {
     margin-top: 25px;
@@ -131,4 +130,63 @@ a {
 }
 .arrow-container {
     padding-top: 40px;
+}
+
+.container-2 {
+    max-width: 70%;
+    margin: 0 auto;
+    padding-top: 20vh;
+}
+.col {
+    width: 25%;
+    
+    margin-right: 5%;
+    margin-top: 10%;
+    border: solid .1em black;
+    float: left;
+}
+
+.col-name {
+    text-align: center;
+    border-bottom: .1em solid black;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    }
+
+.col-position {
+    position: relative;
+    left: 10%;
+    top: 2vh;
+    max-width: 80%;
+    padding-bottom: 2vh;
+    font-size: 80%;
+}
+
+.col-title {
+    font-size: 150%;
+}
+
+.price {position: relative;
+    left: 10%;
+    top: 3vh;
+    max-width: 80%;
+    padding-bottom: 4vh;
+}
+
+.col-btn {
+    width: 80%;
+    position: relative;
+    margin-bottom: 3vh;
+    left: 10%;
+    top: 5vh;
+    font-size: 80%;
+}
+
+.col-hr {
+    width: 25%;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    position: relative;
+    left: 10%;
+    top: 3vh;
 }
