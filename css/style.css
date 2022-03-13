@@ -482,3 +482,25 @@ header a {
 
 /* section 6*/
     /* container 9*/
+.container-9 {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.c9-title {
+    font-size: 200%;
+    padding-top: 10%;
+}
+
+.c9-hr {
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.c9-a {
+    font-size: 200%;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    right: -20%;
+}
