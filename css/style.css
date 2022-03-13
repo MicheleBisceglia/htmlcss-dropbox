@@ -105,7 +105,6 @@ header a {
     float: left;
     padding-top: 30px;
     font-size: 100%;
-    float: left;
     font-size: 80%;
 }
 
@@ -277,7 +276,9 @@ header a {
 .c5-col {
     width: calc(100%/3);
     float: left;
-    height: 50%; 
+    height: 50%;
+    position: relative;
+    top: 15%; 
 }
 
 .c5-img1 {
@@ -310,9 +311,10 @@ header a {
 
 /* /conteiner 5*/
 
+/*conteiner 6*/
 .container-6 {
     max-width: 70%;
-    height: 100vh;
+    height: 90vh;
     margin: 0 auto;
 }
 
@@ -320,8 +322,7 @@ header a {
     width: calc(100%/3);
     float: left;
     height: 50%;
-    position: relative;
-    bottom: 20%;
+    
 }
 
 .c6-img1 {
@@ -351,4 +352,31 @@ header a {
     font-size: 80%;
     max-width: 90%;
 }
+    /* /conteiner 6*/
 
+/* /section 4*/
+#c7-title {
+    font-size: 150%;
+    width: 40%;
+    margin-left: 15%;
+    margin-bottom: 3vh;
+}
+
+#c7-link {
+    margin-left: 15%;
+    margin-bottom: 3vh;
+}
+
+.c7-col {
+    width: 25%;
+    background-color: yellow;
+    height: 50vh;
+    float: left;
+}
+
+.c7-col2 {
+    width: 50%;
+    background-color: red;
+    height: 50vh;
+    float: left;
+}
