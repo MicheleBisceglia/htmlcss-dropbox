@@ -355,6 +355,7 @@ header a {
     /* /conteiner 6*/
 
 /* /section 4*/
+    /* conteiner 7*/
 #c7-title {
     font-size: 150%;
     width: 40%;
@@ -448,3 +449,36 @@ header a {
 #c8 {
     background-color: #ffd830;
 }
+/* /conteiner 7*/
+
+/* conteiner 8*/
+.container-8 {
+    height: 120vh;
+    background-color: #b4d0e7;
+}
+
+.c8-btn {    
+    width: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border: none;
+    float: right;
+    position: relative;
+    top: 20vh;
+    right: 30vh;
+}
+
+.c8-text {
+    font-size: 200%;
+    max-width: 50%;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    color: #61082b;
+}
+    /* /conteiner */
+/* /section 5*/
+
+/* section 6*/
+    /* container 9*/
