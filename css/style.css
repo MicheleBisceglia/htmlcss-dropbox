@@ -378,12 +378,12 @@ header a {
 .c7-col2 {
     width: 40%;
     background-color: #f5f5f5;
-    height: 70vh;
+    min-height: 70vh;
     float: left;
 }
 
 #c7-logo {
-    height: 25%;
+    min-height: 25%;
     width: 30%;
     padding-top: 5%;
     padding-left: 7%;
@@ -453,7 +453,7 @@ header a {
 
 /* conteiner 8*/
 .container-8 {
-    height: 120vh;
+    min-height: 120vh;
     background-color: #b4d0e7;
 }
 
@@ -509,7 +509,7 @@ header a {
 
 /* Footer */
 .container-10 {
-    height: 80vh;
+    min-height: 70vh;
     background-color: black;
     color: white;
 }
@@ -517,18 +517,33 @@ header a {
 .container-10 a {
     color: white;
     text-decoration: none;
+    height: 100%;
 }
 
 .c10-footer {
     max-width: 70%;
     margin: 0 auto;
-    height: 100%;
-    background-color: #ffd830;
+    
 }
 
 .footer-list  {
     width: 20% ;
     height: 100%;
-    border: solid red .1em;
     float: left;
+}
+
+.footer-list li {
+    margin-top: 5%;
+    font-size: 90%;
+}
+
+.footer-list h4 {
+    margin-bottom: 10%;
+    margin-top: 40%;
+}
+
+#footer-hr {
+    width: 20%;
+    color: white;
+    
 }
