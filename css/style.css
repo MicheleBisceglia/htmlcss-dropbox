@@ -135,7 +135,7 @@ header a {
     color: black;
 }
 .arrow-container {
-    padding-top: 40px;
+    padding-top: 20px;
 }
     /* /conteiner 1*/
 /* /section 1*/
@@ -147,13 +147,22 @@ header a {
     margin: 0 auto;
     padding-top: 20vh;
 }
+
+.check {
+    font-size: 120%;
+    color:#0093ce;
+}
+
+.title2 {
+    margin-bottom: 4%;
+}
 .col {
-    width: 30%;
+    max-width: 30%;
     margin-right: 3%;
-    margin-top: 10%;
-    padding-bottom: 20vh;
+    margin-top: 3%;
     border: solid .1em grey;
     float: left;
+    min-height: 800px;
 }
 
 .col-name {
@@ -177,13 +186,17 @@ header a {
     max-width: 80%;
 }
 
-.price {position: relative;
+.price {
+    position: relative;
     left: 10%;
     top: 3vh;
     max-width: 80%;
     padding-bottom: 4vh;
 }
 
+.price p  {
+    font-size: 70%;
+}
 .col-btn {
     width: 80%;
     position: relative;
@@ -279,20 +292,18 @@ header a {
 .c5-col {
     width: calc(100%/3);
     float: left;
-    height: 50%;
     position: relative;
     top: 15%; 
 }
 
 .c5-imgcontainer {
-    height: 100%;
     width: 100%;
 
 }
 
 .c5-img {
     object-fit: cover;
-    height: 80%;
+    width: 100%;
 }
 
 .c5-title {
